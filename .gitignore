@@ -7,3 +7,5 @@ Thumbs.db
 *.ipch
 output.*
 output.txt
+*.txt
+*.png
