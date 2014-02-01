@@ -1,0 +1,9 @@
+*.tga
+*.dat
+*.pdf
+slides/
+notes/
+Thumbs.db
+*.ipch
+output.*
+output.txt
