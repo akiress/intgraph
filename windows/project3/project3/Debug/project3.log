@@ -1,0 +1,34 @@
+﻿Build started 11/4/2013 1:30:03 PM.
+     1>Project "C:\Users\BenG\git\school\CSC4356\windows\project3\project3\project3.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt GLShader.cpp InitShader.cpp project3.cpp
+         project3.cpp
+     1>c:\users\beng\git\school\csc4356\windows\project3\project3\mat.h(698): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\beng\git\school\csc4356\windows\project3\project3\mat.h(699): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\beng\git\school\csc4356\windows\project3\project3\mat.h(700): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\beng\git\school\csc4356\windows\project3\project3\mat.h(721): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\beng\git\school\csc4356\windows\project3\project3\mat.h(723): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\beng\git\school\csc4356\windows\project3\project3\mat.h(726): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\beng\git\school\csc4356\windows\project3\project3\mat.h(743): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+         InitShader.cpp
+     1>c:\users\beng\git\school\csc4356\windows\project3\project3\mat.h(698): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\beng\git\school\csc4356\windows\project3\project3\mat.h(699): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\beng\git\school\csc4356\windows\project3\project3\mat.h(700): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\beng\git\school\csc4356\windows\project3\project3\mat.h(721): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\beng\git\school\csc4356\windows\project3\project3\mat.h(723): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\beng\git\school\csc4356\windows\project3\project3\mat.h(726): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\beng\git\school\csc4356\windows\project3\project3\mat.h(743): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\beng\git\school\csc4356\windows\project3\project3\initshader.cpp(10): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+         GLShader.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\BenG\git\school\CSC4356\windows\project3\Debug\project3.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\BenG\git\school\CSC4356\windows\project3\Debug\project3.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\BenG\git\school\CSC4356\windows\project3\Debug\project3.lib" /MACHINE:X86 Debug\GLShader.obj
+         Debug\InitShader.obj
+         Debug\project3.obj
+         project3.vcxproj -> C:\Users\BenG\git\school\CSC4356\windows\project3\Debug\project3.exe
+     1>Done Building Project "C:\Users\BenG\git\school\CSC4356\windows\project3\project3\project3.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.86

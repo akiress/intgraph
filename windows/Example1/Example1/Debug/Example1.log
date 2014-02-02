@@ -1,0 +1,74 @@
+﻿Build started 9/3/2013 11:26:31 PM.
+     1>Project "C:\Users\akiress\git\school\CSC4356\windows\Example1\Example1\Example1.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt example1.cpp InitShader.cpp
+         InitShader.cpp
+     1>c:\users\akiress\git\school\csc4356\windows\example1\example1\angel.h(61): warning C4305: 'initializing' : truncation from 'double' to 'const GLfloat'
+     1>c:\users\akiress\git\school\csc4356\windows\example1\example1\mat.h(697): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\akiress\git\school\csc4356\windows\example1\example1\mat.h(698): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\akiress\git\school\csc4356\windows\example1\example1\mat.h(699): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\akiress\git\school\csc4356\windows\example1\example1\mat.h(720): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\akiress\git\school\csc4356\windows\example1\example1\mat.h(722): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\akiress\git\school\csc4356\windows\example1\example1\mat.h(725): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\akiress\git\school\csc4356\windows\example1\example1\mat.h(742): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\akiress\git\school\csc4356\windows\example1\example1\initshader.cpp(9): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(218) : see declaration of 'fopen'
+         example1.cpp
+     1>c:\users\akiress\git\school\csc4356\windows\example1\example1\angel.h(61): warning C4305: 'initializing' : truncation from 'double' to 'const GLfloat'
+     1>c:\users\akiress\git\school\csc4356\windows\example1\example1\mat.h(697): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\akiress\git\school\csc4356\windows\example1\example1\mat.h(698): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\akiress\git\school\csc4356\windows\example1\example1\mat.h(699): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\akiress\git\school\csc4356\windows\example1\example1\mat.h(720): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\akiress\git\school\csc4356\windows\example1\example1\mat.h(722): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\akiress\git\school\csc4356\windows\example1\example1\mat.h(725): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\akiress\git\school\csc4356\windows\example1\example1\mat.h(742): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\akiress\git\school\CSC4356\windows\Example1\Debug\Example1.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\akiress\git\school\CSC4356\windows\Example1\Debug\Example1.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\akiress\git\school\CSC4356\windows\Example1\Debug\Example1.lib" /MACHINE:X86 /VERBOSE:LIB /NODEFAULTLIB:library Debug\example1.obj
+         Debug\InitShader.obj
+         
+         Searching libraries
+             Searching C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\lib\msvcprtd.lib:
+             Searching C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\lib\freeglut.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x86\glu32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x86\opengl32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x86\gdi32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x86\winmm.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x86\user32.lib:
+             Searching C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\lib\glew32.lib:
+             Searching C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\lib\MSVCRTD.lib:
+             Searching C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\lib\OLDNAMES.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x86\kernel32.lib:
+             Searching C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\lib\msvcprtd.lib:
+             Searching C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\lib\freeglut.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x86\glu32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x86\opengl32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x86\gdi32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x86\winmm.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x86\user32.lib:
+             Searching C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\lib\glew32.lib:
+             Searching C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\lib\MSVCRTD.lib:
+             Searching C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\lib\OLDNAMES.lib:
+         
+         Finished searching libraries
+         
+         Searching libraries
+             Searching C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\lib\msvcprtd.lib:
+             Searching C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\lib\freeglut.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x86\glu32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x86\opengl32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x86\gdi32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x86\winmm.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x86\user32.lib:
+             Searching C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\lib\glew32.lib:
+             Searching C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\lib\MSVCRTD.lib:
+             Searching C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\lib\OLDNAMES.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x86\kernel32.lib:
+         
+         Finished searching libraries
+         Example1.vcxproj -> C:\Users\akiress\git\school\CSC4356\windows\Example1\Debug\Example1.exe
+     1>Done Building Project "C:\Users\akiress\git\school\CSC4356\windows\Example1\Example1\Example1.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.91

@@ -1,3 +1,6 @@
+*.ilk
+*.pdb
+*.exe
 *.pdf
 slides/
 notes/

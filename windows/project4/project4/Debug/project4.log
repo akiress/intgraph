@@ -1,0 +1,27 @@
+﻿Build started 11/4/2013 2:42:55 PM.
+     1>Project "C:\Users\BenG\git\school\CSC4356\windows\project4\project4\project4.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt GLShader.cpp project4.cpp
+         project4.cpp
+     1>c:\users\beng\git\school\csc4356\windows\project4\project4\mat.h(698): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\beng\git\school\csc4356\windows\project4\project4\mat.h(699): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\beng\git\school\csc4356\windows\project4\project4\mat.h(700): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\beng\git\school\csc4356\windows\project4\project4\mat.h(721): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\beng\git\school\csc4356\windows\project4\project4\mat.h(723): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\beng\git\school\csc4356\windows\project4\project4\mat.h(726): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\beng\git\school\csc4356\windows\project4\project4\mat.h(743): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\beng\git\school\csc4356\windows\project4\project4\project4.cpp(92): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\beng\git\school\csc4356\windows\project4\project4\project4.cpp(93): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\beng\git\school\csc4356\windows\project4\project4\project4.cpp(96): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\beng\git\school\csc4356\windows\project4\project4\project4.cpp(97): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+         GLShader.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\BenG\git\school\CSC4356\windows\project4\Debug\project4.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\BenG\git\school\CSC4356\windows\project4\Debug\project4.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\BenG\git\school\CSC4356\windows\project4\Debug\project4.lib" /MACHINE:X86 Debug\GLShader.obj
+         Debug\project4.obj
+         project4.vcxproj -> C:\Users\BenG\git\school\CSC4356\windows\project4\Debug\project4.exe
+     1>Done Building Project "C:\Users\BenG\git\school\CSC4356\windows\project4\project4\project4.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.69
