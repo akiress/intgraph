@@ -1,0 +1,4 @@
+gcc -g -I/usr/local/include -o project project.c \
+	-L/usr/local/lib -lGLEW \
+	-framework OpenGL -framework GLUT \
+	-Wno-deprecated-declarations
